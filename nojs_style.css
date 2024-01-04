@@ -1,0 +1,13 @@
+/*
+Stylesheet that is loaded after style.css is loaded when there the browser
+does not support/enable javascript.
+*/
+
+article:nth-child(n+2) {
+  visibility: visible;
+  opacity: 1;
+}
+
+#scroll-indicator {
+  display: none;
+}
